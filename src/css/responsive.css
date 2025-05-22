@@ -1,0 +1,45 @@
+/* / journal-website/journal-website/src/css/responsive.css */
+
+/* Responsive styles for the documentary mystery and thrilling themed journal website */
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+    header, footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    nav {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .article {
+        flex-direction: column;
+    }
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .button {
+        width: 100%;
+        padding: 10px;
+    }
+}
